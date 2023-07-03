@@ -19,10 +19,6 @@ const initialValues = {
 
 const NeedHelp = ({ closeModal }) => {
   const hendleSubmit = (values, { resetForm }) => {
-    const obj = {
-      email: values.email,
-      comment: values.comment,
-    };
     closeModal();
     resetForm();
   };
